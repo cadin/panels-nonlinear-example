@@ -12,19 +12,24 @@ Panels.credits = gameCredits
 
 -- COMIC DATA:
 -- add data to the table in this file to create your comic
-import "myComicData.lua"
-comicData = myComicData
+import "comicData/s01.lua"
+import "comicData/s02.lua"
+import "comicData/s03.lua"
+import "comicData/s04.lua"
+import "comicData/s05.lua"
 
-
--- EXAMPLES:
--- uncomment this file to have the example data used in the `start()` command
--- look in the `examples` folder for the data files
--- import "examples/comicData.lua"
-
+local comicData = {
+    s01,
+    s02,
+    s03,
+    s04,
+    s05
+}
 
 -- SETTINGS:
--- change any settings before calling `start()`
-Panels.Settings.showMenuOnLaunch = true
+-- for non-linear comic, it's probably best to hide locked sequences in the chapter menu
+-- otherwise you might have story spoilers and confusing chapter navigation
+Panels.Settings.listLockedSequences = false
 
 
 -- START:
