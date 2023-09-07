@@ -1,4 +1,4 @@
-# Panels Non-linear Story Example
+# Panels Nonlinear Story Example
 
 An example project demonstrating how to create a branching, choose-your-own adventure comic with [Panels](https://github.com/cadin/panels).
 
