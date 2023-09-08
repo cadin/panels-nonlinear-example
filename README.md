@@ -16,23 +16,23 @@ Each option can define an `input` trigger, a `target` sequence, and `x` and `y` 
 
 ## Documentation
 
-Documentation for these new features coming soon:
+Documentation for these new features can be found in the Panels docs:
 
-### [📄 Panels Documentation](//cadin.github.io/panels)
+### [📄 Creating Comics with Branching Storylines](//cadin.github.io/panels/docs/nonlinear-comics.html)
 
 ## Examples
 
 This project includes some example sequences to help you get started:
 
-1. **Basic Example**  
+1. **[Basic Example](https://github.com/cadin/panels-nonlinear-example/blob/main/source/comicData/s01.lua)**  
    Add two branching options to the end of the sequence.
-2. **Anchored Controls**  
+2. **[Anchored Controls](https://github.com/cadin/panels-nonlinear-example/blob/main/source/comicData/s02.lua)**  
    By default, a sequence's advance buttons float above the panels. This example shows how they can be anchored to the scroll position of the last panel.
-3. **Hidden Controls**  
+3. **[Hidden Controls](https://github.com/cadin/panels-nonlinear-example/blob/main/source/comicData/s03.lua)**  
    Hide Panel's built in button graphics in order to display your own text or graphics for the user.
-4. **Directional Controls**  
+4. **[Directional Controls](https://github.com/cadin/panels-nonlinear-example/blob/main/source/comicData/s04.lua)**  
    Let the user choose a physical direction to move in.
-5. **Custom Functions**  
+5. **[Custom Functions](https://github.com/cadin/panels-nonlinear-example/blob/main/source/comicData/s05.lua)**  
    Use a custom render function to draw interactive content (like a mini-game). Use the `targetSequenceFunction` to define a target sequence based on any custom-defined criteria.
 
 Look in the `comicData/` folder to find data tables for each sequence.
