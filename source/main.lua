@@ -17,13 +17,15 @@ import "comicData/s02.lua"
 import "comicData/s03.lua"
 import "comicData/s04.lua"
 import "comicData/s05.lua"
+import "comicData/s06.lua"
 
 local comicData = {
     s01,
     s02,
     s03,
     s04,
-    s05
+    s05,
+    s06,
 }
 
 -- SETTINGS:
