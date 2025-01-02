@@ -1,13 +1,13 @@
 s03 = { -- Sequence 3
     title = "3: Hidden Controls",
-
+    id = "seq3",
     -- list the advance controls for this sequence
     -- these will be hidden so they don't need positions
     -- we'll add graphics or text to the final panel to instruct the user instead
     showAdvanceControls = false,
     advanceControls = {
-        { input = Panels.Input.A, target = 1 },
-        { input = Panels.Input.B, target = 4 },
+        { input = Panels.Input.A, target = "seq1" },
+        { input = Panels.Input.B, target = "seq4" },
     },
     
     panels = {

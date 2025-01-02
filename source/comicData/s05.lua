@@ -1,6 +1,6 @@
 s05 = { -- Sequence 5
 	title = "5: Dead End",
-	
+	id = "seq5",
 	-- there are no more sequences after this one in the story
 	-- even though there may be others listed after this in the comicData 
 	-- (because the story is nonlinear)

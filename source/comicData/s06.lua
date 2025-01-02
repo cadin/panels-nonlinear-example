@@ -10,7 +10,7 @@ local function renderSeq6(panel, offset)
 
     -- check for button presses
 	if playdate.buttonJustPressed(Panels.Input.UP) then
-		target = 1
+		target = "seq1"
 	elseif playdate.buttonJustPressed(Panels.Input.DOWN) then
 		target = nil
 	end
@@ -48,7 +48,7 @@ end
 
 s06 = { -- Sequence 6
     title = "6: Custom Functions",
-
+    id = "seq6",
     -- set a single advance control for this sequence
     -- target will be controlled with custom functions
     advanceControl = Panels.Input.A,

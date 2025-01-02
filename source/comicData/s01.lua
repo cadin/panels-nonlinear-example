@@ -1,12 +1,13 @@
 s01 = { -- Sequence 1
     title = "1: Basic Example",
+    id = "seq1",
 
     -- SEQUENCE advance controls
     -- these appear on the last panel of the sequence (unless hidden)
     -- target defines the sequence number to advance to
     advanceControls = {
-        { input = Panels.Input.A, target = 2, x = 180, y = 20},
-        { input = Panels.Input.B, target = 4, x = 180, y = 180},
+        { input = Panels.Input.A, target = "seq2", x = 180, y = 20},
+        { input = Panels.Input.B, target = "seq4", x = 180, y = 180},
     },
 
     panels = { -- a list of PANELS for Sequence 1

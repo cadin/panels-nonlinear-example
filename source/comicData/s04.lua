@@ -1,6 +1,6 @@
 s04 = { -- Sequence 4
     title = "4: Directional Controls",
-
+    id = "seq4",
     -- list the advance controls for this sequence
     advanceControls = {
         { input = Panels.Input.UP,    target = 4, x = 180, y = 2 },

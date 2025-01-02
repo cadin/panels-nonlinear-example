@@ -1,12 +1,12 @@
 s02 = { -- Sequence 2
     title = "2: Anchored Controls",
-
+    id = "seq2",
     -- list the advance controls for this sequence
     -- these will be anchored to the panel as it scrolls (`anchor = true`)
     -- note the positions are slightly offset because of the panel margins
     advanceControls = {
-        { input = Panels.Input.A, target = 1, x = 172, y = 12,  anchor = true },
-        { input = Panels.Input.B, target = 4, x = 172, y = 172, anchor = true },
+        { input = Panels.Input.A, target = "seq1", x = 172, y = 12,  anchor = true },
+        { input = Panels.Input.B, target = "seq4", x = 172, y = 172, anchor = true },
     },
 
     panels = { -- a list of PANELS for Sequence 2
