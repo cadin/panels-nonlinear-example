@@ -19,6 +19,9 @@ import "comicData/s04.lua"
 import "comicData/s05.lua"
 import "comicData/s06.lua"
 
+import "comicData/s07.lua"
+import "comicData/s08.lua"
+
 local comicData = {
     s01,
     s02,
@@ -26,12 +29,16 @@ local comicData = {
     s04,
     s05,
     s06,
+
+    s07,
+    s08,
 }
 
 -- SETTINGS:
 -- for non-linear comic, it's probably best to hide locked sequences in the chapter menu
 -- otherwise you might have story spoilers and confusing chapter navigation
 Panels.Settings.listLockedSequences = false
+Panels.Settings.debugControlsEnabled = true
 
 
 -- START:
