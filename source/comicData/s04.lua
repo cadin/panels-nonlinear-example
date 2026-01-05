@@ -3,9 +3,9 @@ s04 = { -- Sequence 4
     id = "seq4",
     -- list the advance controls for this sequence
     advanceControls = {
-        { input = Panels.Input.UP,    target = 4, x = 180, y = 2 },
-        { input = Panels.Input.RIGHT, target = 5, x = 360, y = 100 },
-        { input = Panels.Input.DOWN,  target = 6, x = 180, y = 198 },
+        { input = Panels.Input.UP,    target = "seq4", x = 180, y = 2 },
+        { input = Panels.Input.RIGHT, target = "seq5", x = 360, y = 100 },
+        { input = Panels.Input.DOWN,  target = "seq6", x = 180, y = 198 },
         -- only 3 directions since LEFT will conflict with scrolling back
     },
 
